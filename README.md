@@ -22,8 +22,24 @@ The project leverages historical data involving loss history and demographic inf
 - **Feature Engineering**: Key features were engineered and selected based on their predictive power and relevance to insurance claims, including variables like the number of major and minor violations, number of vehicles, coverage limits, credit scores, and historical loss amounts.
 - **Predictive Modeling**: Various algorithms were evaluated, with a decision tree model being the final choice due to its ability to handle non-linear relationships and provide interpretable results.
 
+# Machine Learning Model Performance Summary
+
+The following table summarizes the performance of different algorithms on our feature set:
+
+| Algorithm          | Jaccard | F1-score | Logloss |
+|--------------------|---------|----------|---------|
+| KNN                | 0.0     | 0.93507  | NA      |
+| Decision Tree      | 0.998849| 0.99995  | NA      |
+| SVM                | 0.0     | 0.93507  | NA      |
+| Logistic Regression| 0.204519| 0.878617 | 0.677313|
+
+### Observations:
+- **Decision Tree** demonstrates
+
+
 ## Final Model Recommendation
 The project recommends deploying a decision tree model, which uses features such as past claims, type of coverage, and demographic characteristics to predict future claims. This model helps in identifying potential high-risk customers, significantly impacting the insurance company's risk management and pricing policy.
+
 
 ## Technical Implementation
 - A **Flask web application** was developed to demonstrate the model's utility. Users can input relevant data through a web form, which is then processed by the model to predict the likelihood of a claim.
