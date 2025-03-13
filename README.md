@@ -26,12 +26,13 @@ The project leverages historical data involving loss history and demographic inf
 
 The following table summarizes the performance of different algorithms on our feature set:
 
-| Algorithm          | Jaccard | F1-score | Logloss |
-|--------------------|---------|----------|---------|
-| KNN                | 0.0     | 0.93507  | NA      |
-| Decision Tree      | 0.998849| 0.99995  | NA      |
-| SVM                | 0.0     | 0.93507  | NA      |
-| Logistic Regression| 0.204519| 0.878617 | 0.677313|
+| Algorithm            | Jaccard   | F1-score | Logloss  | Recommendation              |
+|----------------------|-----------|----------|----------|-----------------------------|
+| Decision Tree        | 0.998849  | 0.99995  | NA       | ✅ Best Model               |
+| Logistic Regression  | 0.204519  | 0.878617 | 0.677313 | ⚠️ Acceptable               |
+| KNN                  | 0.000     | 0.935307 | NA       | ❌ Not Recommended          |
+| SVM                  | 0.000     | 0.935307 | NA       | ❌ Not Recommended          |
+
 
 ### Observations:
 - **Decision Tree** demonstrates
