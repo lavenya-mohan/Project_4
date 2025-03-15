@@ -2,11 +2,6 @@
 
 # Project: Predicting Future Loss Claims for Car Insurance
 
-## By Group 8 Team Members:
-- **Lavenya Mohanasundaram**
-- **Mehmet Akif Cingöz**
-- **Nicholas Voltin**
-
 ## Objective
 The primary objective of this project is to predict whether an insurance applicant is likely to file a claim in the future based on their loss history and application data. This predictive analysis helps insurance companies assess risk and tailor their pricing strategies more effectively.
 
